@@ -1,1 +1,1 @@
-python main.py --config SCrasp.yaml --test --ckpts path/to/ckpt.pth
+python main.py --test --ckpts ./experiments/YCB_models/SCrasp/defaultmodel.pth
