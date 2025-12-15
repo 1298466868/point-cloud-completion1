@@ -42,10 +42,10 @@ def farthest_point_sample(point, npoint):
 
 
 
-Test_data_dir = 'PATH_TO_THE_FILE/input/*/test'
-Test_pcd_dir = 'PATH_TO_THE_FILE/gt'
-Train_pcd_dir = 'PATH_TO_THE_FILE/gt'
-Train_data_dir = 'PATH_TO_THE_FILE/input/*/train'
+Test_data_dir = 'C:\Users\chong\Desktop\3dsgrasp_ycb_train_test_split/input/*/test'
+Test_pcd_dir = 'C:\Users\chong\Desktop\3dsgrasp_ycb_train_test_split/gt'
+Train_pcd_dir = 'C:\Users\chong\Desktop\3dsgrasp_ycb_train_test_split/gt'
+Train_data_dir = 'C:\Users\chong\Desktop\3dsgrasp_ycb_train_test_split/input/*/train'
 
 
 test_data = YcbTest(Test_data_dir, Test_pcd_dir, test_mode=True)
