@@ -35,7 +35,6 @@ if os.name == 'nt':
             '-arch=sm_86',  # RTX 3060的架构
             '-gencode=arch=compute_86,code=sm_86',
             '--use-local-env',
-            '--cl-version=2019',
             '-Xcompiler', '/MD',
             '-Xcompiler', '/wd4624',
             '-Xcompiler', '/wd4005',
