@@ -1,1 +1,1 @@
-python3 main.py --config ./cfgs/YCB_models/SGrasp.yaml
+python main.py --config ./cfgs/YCB_models/SGrasp.yaml
