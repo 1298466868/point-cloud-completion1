@@ -950,7 +950,9 @@ class YcbTest(torch.utils.data.Dataset):
 
         for i in range(len(self.classnames)):
             all_files = sorted(glob.glob(parent_dir + '/' + self.classnames[i] + '/' + set_ + '/*.xyz'))
-
+            if all_files:
+                # 替换路径分隔符（对每个文件路径进行处理）
+                all_files = [f.replace('\\', '/') for f in all_files]
             self.filepaths.extend(all_files)
 
     def __len__(self):
